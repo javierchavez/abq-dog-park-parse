@@ -5,11 +5,11 @@ This is used to parse [this file](http://www.cabq.gov/parksandrecreation/documen
 
 The parser returns a `List<DogPark>`  
 
-So when you initiate the class like this:
+So you initiate the class like this:
 	
 	ParkParseCSV parser = new ParkParseCSV();
 	
-Besure you save the return to a `List<DogPark>`  :
+Besure you save the return of `parseFromUrl()` to a `List<DogPark>`  :
 
 	List<DogPark> parks = parser.parseFromUrl(new URL(urlString));
 	
