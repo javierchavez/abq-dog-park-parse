@@ -61,7 +61,7 @@ When getting a `DogPark` object from a list make sure you cast to get access to 
 	
 	((DogPark) parks.get(i))
 
-**Feilds**	
+**Fields**	
 `Dog Park` has these fields:  
 Accessed with get_field()
 	
