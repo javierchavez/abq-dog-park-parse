@@ -154,7 +154,7 @@ public class ParkParseCSV {
 				ll[1] = lng;
 			} catch (Exception e) {
 				// TODO: handle exception
-				e.printStackTrace();
+				// e.printStackTrace();
 				ll[0] = 0.0;
 				ll[1] = 0.0;
 			}
